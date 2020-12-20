@@ -1,0 +1,69 @@
+/* <!--670~1000px = change profile display ---> */
+
+@media(max-width:1000px){
+  #contents{
+    height:auto;
+  }
+  .contents_message{
+    height:480px;
+    width: 100%;
+    left:0;
+    background-color: #f1f1f1;
+  }
+  .contents_img{
+    height:400px;
+    width: 100%;
+    position: relative;
+    top:0;
+    background-color: #FBFBFB;
+
+  }
+  .contents_img1{
+    width:80%;
+  }
+  .contents_img2{
+    width:50%;
+  }
+  #works h1{
+    width:100%;
+    left:0;  
+  }
+  .insert_image{
+    height:600px;
+    width: 100%;
+  }
+  .insert_image{
+    height:400px;
+  }
+  .insert_img1{
+    width:80%;
+  }
+  .insert_img2{
+    width:50%;
+  }
+  #service h1{
+    width:100%;
+    left:0;  
+  }
+  #contact h1{
+    width:100%;
+    left:0;
+  
+  }
+}
+/* <!--~670 = change profile display,delete navi bar ---> */
+@media(max-width:500px){
+  .contents_message{
+    height:440px;
+  }
+  .contents_message h2{
+    font-size:12px;
+  }
+  .contents_img{
+    height:200px;
+  }
+  .insert_image{
+    height:250px;
+  }
+}
+ 
