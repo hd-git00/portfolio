@@ -247,13 +247,14 @@ mainimageここから
   z-index: -1;
   width:100%;
   overflow: hidden;
+  opacity: 0.5;
 }
 .mainimage h1{
   font-family: 'genjyu';
   font-size:32px;
   width:100%;
   text-align: center;
-  color:#f1f1f1;
+  color:#333;
   position: absolute;
   top:40%;
   transform: translateY(-50%);
@@ -303,7 +304,7 @@ contentここから
   display: block;
   position: absolute;
   width: 60%;
-  height:500px;
+  height:530px;
   margin:10px 0;
   overflow: hidden;
   top:150px;

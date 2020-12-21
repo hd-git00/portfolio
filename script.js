@@ -3,8 +3,9 @@
 // スライドショー
 $('.slider').slick({
   autoplay:true, // 自動再生を設定
-  autoplaySpeed:2000, // スライド切り替えの時間を設定
-  dots:true, // インジケーターを表示
+  autoplaySpeed:3000, // スライド切り替えの時間を設定
+  dots:false, // インジケーターを表示
+  pauseOnHover: false,
 });
 
 
